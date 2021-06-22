@@ -1,0 +1,22 @@
+{
+  "name": "lykke-dsr-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LykkeBusiness/Lykke.DigitalShareRegister.SmartContracts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LykkeBusiness/Lykke.DigitalShareRegister.SmartContracts/issues"
+  },
+  "homepage": "https://github.com/LykkeBusiness/Lykke.DigitalShareRegister.SmartContracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0"
+  }
+}
