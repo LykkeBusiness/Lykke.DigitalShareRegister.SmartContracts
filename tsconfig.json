@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "ES6"
+    },
+    "include": [
+        "./features/**/*.ts",
+        "./test/**/*.ts"
+    ],
+    "files": [
+        "./hardhat.config.ts"
+    ]
+}
