@@ -86,7 +86,7 @@ contract SharesToken is CMTA777, CMTA777RuleEngineClient {
         address owner,
         uint256 amount
     ) {
-        require(availableBalanceOf(owner) >= amount, "SharesToken: amount exceeds available balance");
+        require(owner == address(0) || availableBalanceOf(owner) >= amount, "SharesToken: amount exceeds available balance");
         _;
     }
 
